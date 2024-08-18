@@ -1,0 +1,176 @@
+
+/*REQUIREMENTS:
+CSS 
+-class
+-ID
+-Element
+*/
+/*Chnsge background color to tan*/
+body{
+  background-color: rgb(246, 220, 198);
+}
+
+/*page 1*/
+/*chnaged font style to italic, and moved the links to 
+the right of the page*/
+div{
+    font-style: italic;
+    text-align: right;
+    }
+/*changed the title of the page to make it stand out more*/
+#title{
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px rgb(35, 34, 34);
+    }
+/*changing img size*/
+.mainimg{
+    max-width: 100%;
+    height: auto;
+}
+/*added a border to the image*/
+.dog-tongue{
+    width: 50%;
+    border: 1px solid #6e2a2a;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+}
+/*centered the text to the middle*/
+.info-dog{
+    text-align: center;
+}
+/*Section 2*/
+/*center the header on top of image*/
+.center{
+    position: relative;
+    top: 200px;
+    right: 50px;
+    text-align: right;
+    
+}
+/*adjusted the size of the image*/
+#family-dog{
+    width: 100%;
+    height: 400px;
+    border:1px solid #6e2a2a;
+    padding: 5px;
+    text-wrap: wrap;
+}
+/*moved link to the center so it is
+ even with the rest of the paragrph*/
+.adopt-dog{
+    position: relative;
+    top: 10px;
+    left: 160px;
+}
+/*centering the text to the middle of the page*/
+.adopting{
+    text-align: right;
+}
+/*when moving mouse over a link it will 
+change to the color red*/
+a:hover{
+    color: #6e2a2a;
+}
+/* changed unordered list to squares
+and moved list to the top right next to image*/
+.unordered{
+    list-style-type: square;
+    position: relative;
+    padding-left: 0;
+    left: 50px;
+    top:100px;
+    }
+
+/* all paragraph font size will be the same
+made font size bigger, so easier to read */
+p{
+    font-size: large;
+    text-align: center;
+}
+/*All header 3 are being centered*
+and have a text shadow added*/
+h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px #1a1919;
+}
+
+/*page 2*/
+/*changed the title to stand out*/
+#page-two{
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px rgb(35, 34, 34);
+    
+}
+/*styling table*/
+/*added a border to table, changed font
+ of table, and adjusted the width*/
+table, th,td{
+    border: 1px solid;
+}
+table{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*page 3*/
+/*changed the title of page 3
+making the title stand out from the rest of the page*/
+#page-three{
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px rgb(35, 34, 34);
+}
+/*changed the sizing of the image*/
+#dog-adopted{
+    height: 400px;
+}
+/*changed the style of the ordered list*/
+/*changed the numbers to be dogs and added spacing
+between each item*/
+ol{
+    list-style-type: none;
+    padding-left: 2rem;
+}
+ol li{
+    padding-left: 2rem;
+    background-image: url(./Images/bulldog.jpeg);
+    background-position: 0,0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    line-height: 45px;
+    font-size: large;
+}
+
+/*---------------------------------------------------------------------*/
+/*all imagines will have a border-radius of 8px*/
+img{
+    border-radius: 8px;
+}
+
+/* form  */
+/*the form is centered
+textboxes have an adjusted width, bigger box
+when mouse hovers over the boxes it will turn gray
+submit button also will turn blue when mouse hovers over it*/
+form{
+    text-align: center;
+}
+input{
+    width: 40%;
+    padding: 10px 10px;
+    margin: 1px 0;
+    box-sizing:content-box;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    color: rgb(60, 169, 181);
+}
+input[type="text"]:hover{
+    background-color: rgb(166, 161, 161);
+}
+input[type="email"]:hover{
+    background-color: rgb(166, 161, 161);
+}

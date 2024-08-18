@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <!--Reqirements:
+    Create a homepage named index.html
+    At least 3 pages with links to navigate between all pages present on each page.
+    2 different size headers 
+    a list
+    3 images 
+    a table 
+    a form.-->
+    
+    <!--Created a div:
+    Creating a div so browser can click between pages about what they want to learn more about-->
+    <div>
+        <a href="">Home</a>
+        <a href="./Index2.html"> Info</a>
+        <a href="./Index3.html">Adopting</a>
+    </div>
+<!--Header for main page-->
+    <main id="title">
+        <header><h1>Dogs</h1></header<header>
+        <img class="mainimg" src="https://www.smallanimalclinic.com/sites/default/files/2023-05/Puppy-Breeder-Referral-v3.png" width="800" alt="Different type of dogs">
+    </main>
+
+<!--Section 1: About dogs-->
+
+    <section>
+        <h3>Dog Information</h3>
+        <p>Dogs can be difficult to take care of, but they are misunderstood.
+            Once you chose the right breed for you, and train them, you will relaize that they are the best pets ever. 
+            They will even become your life long bestfriend. </p>
+
+        <h3>Fun facts about dogs:</h3>
+        <img class="dog-tongue" src="./Images/Funnydog.jpg" alt="Dog sticking out tounge">
+        
+        <!--Added fun facts about dog. Added in an unordered list becuase these facts are all fun facts 
+        none is a priorty more than the other facts-->
+            <ul class="unordered">
+                <li>Dogs nose are human fingerprints</li>
+                <li>Dog's sense of smell is the best</li>
+                <li>Dogs can only see blue and yellow</li>
+            </ul>
+        <!--Added link on section about dog information, 
+        so they can click instead of scrolling up on top of page to click-->
+        <a class="info-dog" href="./Index2.html">For more information about dogs click here!</a>
+    </section>
+
+<!--Section 2: Why adopt dogs-->
+
+    <section >
+        <h3 class="center"> Why adopt dogs?</h3>
+        <img id="family-dog" src="./Images/adopting-dog.jpg" alt="Family adopting a dog">
+        <!--Givng a brief summary on why one should adopt a dog. To know more 
+        information about adopting dogs they will need to click on the link to get more information-->
+        <p>Going to your local shelter and adopting a dog will save a life. </p>
+        <!--Added link on this section as well, so they can click instead of scrolling to top page-->
+        <a class="adopt-dog" href="./Index3.html"> Click here for more information about adopting dogs</a>
+    </section>
+
+<hr>
+<!--Section 3: Contact Me for more info-->
+<!--added a contact me section so browser can add their information 
+added a contact me info on every page-->
+    <section>
+        <h3>Contact Information</h3>
+        <p> Want more info about dogs or have any other questions?</p><br>
+        <p><b>Contact me!</b></p>
+            <form>
+                <input type="text" name="fistname" placeholder="First name"><br>
+                <input type="text" name="lastname" placeholder="Last name"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="submit" value="Submit">
+            </form>  
+    </section>  
+</body>
+</html>
